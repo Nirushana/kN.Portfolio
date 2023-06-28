@@ -14,3 +14,18 @@
     border-bottom: 3px solid #9E9E9E;
 }
 
+.top{
+    font-family: "Ysabeau Infant";
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.bottom{
+    width: 50%;
+    line-height: .9;
+    font-family: "Ysabeau Infant";
+    font-weight: 900;
+    font-size: 120px;
+    letter-spacing: 6px;
+}
