@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./styles.css"
+import navStyles from "./navStyles.css"
 
 function Nav() {
     return (

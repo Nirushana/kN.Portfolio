@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./styles.css"
+import landingStyles from "./landingStyles.css"
 
 const Landing = () => {
     return (
