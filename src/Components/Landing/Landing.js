@@ -3,7 +3,7 @@ import landingStyles from "./landingStyles.css"
 
 const Landing = () => {
     return (
-        <div className='container'>
+        <div className='landing_container'>
             <div className='topSub_container'>
                 <div className='left_container'>
                     <div className='left_top'>

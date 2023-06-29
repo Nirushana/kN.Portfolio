@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@900&display=swap');
+
+.about_container {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_left_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.about_left_container {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.about_left_container img {
+    width: 340px;
+    height: 520px;
+    background-color: brown;
+}
+
+.about_right_container {
+    width: 45%;
+
+}
+
+.about_right_container h1{
+    font-family: "Ysabeau Infant";
+    font-size: 120px;
+    color: #727070;
+    opacity: .3;
+    position: absolute;
+    margin-top: -100px;
+
+}
+
+.about_right_container h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.about_right_container p {
+    width: 80%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 40px 0;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 20px;
+}
