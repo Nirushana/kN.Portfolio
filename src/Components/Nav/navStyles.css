@@ -61,6 +61,51 @@ nav li a:hover::after{
     left: 10px;
 }
 
+#mobile{
+    display: none;
+}
+
 #mobile i{
     color: black;
 }
+
+@media screen and (max-width: 812px) {
+    nav{
+        padding: 15px 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -3200px;
+        width: 300px;
+        height: 100vh;
+        background: #e2e1e1;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 20px;
+        transition: .5s ease-in-out;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 45px;
+    }
+
+    #mobile{
+        display: block;
+    }
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+

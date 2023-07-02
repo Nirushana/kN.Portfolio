@@ -12,8 +12,8 @@ class Nav extends Component {
         return (
             <nav>
                 <a className='logo'>kN<span>.</span></a>
-                <div className='navbar'>
-                    <ul>
+                <div>
+                    <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">PORTFOLIO</a></li>
