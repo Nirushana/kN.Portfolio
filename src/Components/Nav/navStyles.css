@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Poppins:wght@400;700&family=Ysabeau+SC:wght@600&display=swap');
 
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -58,4 +59,8 @@ nav li a:hover::after{
     position: absolute;
     bottom: -8px;
     left: 10px;
+}
+
+#mobile i{
+    color: black;
 }
