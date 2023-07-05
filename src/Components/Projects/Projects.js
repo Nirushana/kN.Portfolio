@@ -1,10 +1,15 @@
 import React from 'react'
+import projectStyles from "./projectsStyle.css"
+import Works from './Works'
 
 function Projects() {
   return (
-    <div>
-      <h1>Hello Projects</h1>
-    </div>
+    <section className="workSection" id='portfolio'>
+      <h2 className="section_title">Portfolio</h2>
+      <span className="section_subtitle">My Most Recent Work</span>
+    
+    <Works />
+    </section>
   )
 }
 

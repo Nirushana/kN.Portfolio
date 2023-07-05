@@ -18,7 +18,7 @@ const Landing = () => {
                     <div className='right_top'>
                         I'm Kavinda Nirushana
                     </div>
-                    <a href='#' className='btn'>CONTACT ME</a>
+                    <a href='#' className='btn'>CONTACT ME.</a>
                 </div>
             </div>
 

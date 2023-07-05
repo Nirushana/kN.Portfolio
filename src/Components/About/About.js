@@ -13,7 +13,7 @@ function About() {
         <p>A front-end web and mobile app developer, UI/UX designer, and someone who is passionate about providing the finest service.
           As I continue to advance my abilities and knowledge in the field I work in, I appreciate working on projects that are both demanding and rewarding.
           I'm now finishing up a master's degree in computer science after completing my bachelor's degree as a software engineer. </p>
-      <a href='#' className='btn'>View Protfolio</a>
+      <a href='#' className='btn'>View Protfolio.</a>
       </div>
     </div>
   )
