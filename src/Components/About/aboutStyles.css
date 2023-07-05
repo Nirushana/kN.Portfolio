@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@900&display=swap');
 
 .about_container {
-    padding: 0 20px;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
 
 }
 
-.about_right_container h1{
+.about_right_container h1 {
     font-family: "Ysabeau Infant";
     font-size: 120px;
     color: #727070;
@@ -41,7 +41,7 @@
 
 }
 
-.about_right_container h3{
+.about_right_container h3 {
     font-weight: bold;
     font-size: 24px;
 }
@@ -54,4 +54,51 @@
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 812px) {
+    .about_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_right_container {
+        padding-top: 25px;
+        width: 80%;
+    }
+    .about_left_container img {
+        width: 280px;
+        height: 460px;
+        background-color: brown;
+    }
+
+    .about_right_container p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .about_left_container {
+        margin-left: 15px;
+        width: 85%;
+    }
+
+    .about_right_container h1 {
+        line-height: .95;
+    }
+
+    .about_right_container h3{
+        font-size: 20px;
+    }
+
+    .about_right_container p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about_right_container h1 {
+        font-size: 90px;
+        line-height: .95;
+    }
 }
