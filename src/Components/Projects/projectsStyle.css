@@ -1,7 +1,11 @@
-section {
-    width: 100%;
+
+.projectsContainer{
     height: 100vh;
-    padding: 50px 20px;
+}
+
+.headerWorkSection {
+    width: 100%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,4 +22,11 @@ section {
 .section_subtitle {
     font-weight: bold;
     font-size: 24px;
+}
+
+.bodyWorkSection{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
