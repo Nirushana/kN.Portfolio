@@ -1,6 +1,6 @@
-import About from "./Components/About/About.js";
-import Landing from "./Components/Landing/Landing.js";
-import Nav from "./Components/Nav/Nav.js"
+import About from "./About/About.js";
+import Landing from "./Landing/Landing.js";
+import Nav from "./Nav/Nav.js"
 // import Projects from "./Components/Projects/Projects.js";
 
 function App() {
