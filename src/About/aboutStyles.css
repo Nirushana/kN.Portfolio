@@ -23,6 +23,7 @@
     width: 340px;
     height: 520px;
     background-color: brown;
+    border-radius: 15px;
 }
 
 .about_right_container {
@@ -41,7 +42,7 @@
 
 .about_right_container h3 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .about_right_container p {
@@ -102,13 +103,7 @@
     }
 
     .about_right_container .btn {
-        letter-spacing: 8px;
-        padding: 13px 18px;
-        border: none;
-        background-color: #FFA500;
-        color: white;
-        font-weight: bold;
-        font-size: 12px;
-        transition: .5s;
+        padding: 12px 18px;
+        font-size: 10px;
     }
 }
